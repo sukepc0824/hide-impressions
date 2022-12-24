@@ -1,0 +1,21 @@
+{
+    "name": "Hide Impression",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Twitterのインプレッション数を非表示にします。",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://twitter.com/*"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon_16.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+    }
+}
